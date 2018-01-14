@@ -1,0 +1,13 @@
+const AppConstants =
+{
+  DB_URL: '127.0.0.1:27017/mic',
+  LIMIT_DEFAULT_VALUE: 20,
+  OFFSET_DEFAULT_VALUE: 0,
+  LNAME_MIN_LENGTH: 4,
+  LNAME_MAX_LENGTH: 20,
+  FNAME_MIN_LENGTH: 4,
+  FNAME_MAX_LENGTH: 20,
+
+}
+
+module.exports = AppConstants;
